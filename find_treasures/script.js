@@ -14,3 +14,11 @@ var treasuresPoint = {
   x: getRandomNumber(width),
   y: getRandomNumber(height),
 };
+
+// Set the event handler variable
+var clicks = 0;
+
+// Add the event handler fucntion
+$('#map').click(function (event) {
+  clicks++;
+});
