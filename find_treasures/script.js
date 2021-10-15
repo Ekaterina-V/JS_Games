@@ -4,3 +4,13 @@ var getRandomNumber = function (sizeOfMap) {
 };
 
 console.log(Math.random());
+
+// Set variables for treasures
+var treasuresWidth = 450;
+var treasuresHeight = 450;
+
+// Set the coordinates of the treasures
+var treasuresPoint = {
+  x: getRandomNumber(width),
+  y: getRandomNumber(height),
+};
